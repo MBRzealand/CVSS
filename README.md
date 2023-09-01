@@ -11,9 +11,15 @@ Alt afhængigt af hvordan Steam-platformen fungerer, kan arbitrær kode-eksekver
 Vector string: ```CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H/E:F/RL:U/RC:R```
 
 ## Anvendelse af cvedetails.com
-En af de smarte ting ved hjemmesiden er at den giver et dags- uge- eller månedsoverblik, over hvilke sårbarheder er dokumenterede. Heraf kan man orientere sig om det aktuelle trusselsbillede.
-![image](https://github.com/MBRzealand/CVSS/assets/70659124/4348a094-5522-44e3-88f2-2557cb9194f8)
+En af de smarte ting ved hjemmesiden er at den giver et dags- uge- eller månedsoverblik, over hvilke sårbarheder er dokumenterede. Heraf kan man orientere sig om det aktuelle trusselsbillede.  
+
+![image](https://github.com/MBRzealand/CVSS/assets/70659124/4348a094-5522-44e3-88f2-2557cb9194f8)  
+
 
 foruden dette har siden en søgefunktion der tager imod både produkter samt CVE-numre således man enten kan holde sig opdateret omkring et specifikt produkts sårbarheder, eller undersøge en konkret sårbarhed for at prøve finde information eller deciderede løsninger.
 
-cvedetails.com kan essentielt anvendes som én kæmpe risiko-analyse for samtlige kendte exploits. Alle exploits er dokumenterede og rangerede efter parametre der medvirker til at vurdere hvor svært exploitet er at afvikle, konsekvensen af exploitet, samt hvorvidt exploitet stadig udgør en trussel. Disse parametre forkortes derefter til en "Vector string", som essentielt er en forkortelse for hvad de forskellige vurderingsparametre er vurderet til. CVSS-numre kan deraf anvendes af diverse IT-sikkerheds specialister til at udtrykke deres specifikke risikovurdering af et exploit.
+cvedetails.com kan essentielt anvendes som én kæmpe risiko-analyse for samtlige kendte exploits. Alle exploits er dokumenterede og rangerede efter parametre der medvirker til at vurdere hvor svært exploitet er at afvikle, konsekvensen af exploitet, samt hvorvidt exploitet stadig udgør en trussel. Disse parametre forkortes derefter til en "Vector string", som essentielt er en forkortelse for hvad de forskellige vurderingsparametre er vurderet til. CVSS-numre kan deraf anvendes af diverse IT-sikkerheds specialister til at udtrykke deres specifikke risikovurdering af et exploit.  
+
+![image](https://github.com/MBRzealand/CVSS/assets/70659124/04f58ff8-28c0-4e53-82af-675f1b482b3f)
+
+Heraf kan vi altså se hvordan forskellige sikkerhedsaktører har trusselsvurderet det givne exploit. 
